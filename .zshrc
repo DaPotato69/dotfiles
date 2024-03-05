@@ -23,6 +23,7 @@ alias zshrc="cd ~/dotfiles; nvim .zshrc; source .zshrc; cd"
 alias cd="z "
 alias vim="nvim "
 alias comfyuistart="python3 main.py --force-fp16"
+alias treeall="tree -I '.git' -a ."
 
 mkcd() {
   mkdir $1 && cd $_
